@@ -1,31 +1,18 @@
-import { ThemeProvider } from 'styled-components'
+import Header from './components/Cabecalho'
+import Hero from './components/Hero'
+import ListaVagas from './containers/ListaVagas'
 
-import Projetos from './containers/Projetos'
-import Sidebar from './containers/sidebar'
-import Sobre from './containers/Sobre'
-import EstiloGlobal, { Container } from './styles'
-import temaLight from './themes/light'
-import temaDark from './themes/dark'
-import { useState } from 'react'
+import './global.css'
 
 function App() {
-  const [usandodark, setusandodark] = useState(false)
-
-  function trocatema() {
-    setusandodark(!usandodark)
-  }
-
   return (
-    <ThemeProvider theme={usandodark ? temaDark : temaLight}>
-      <EstiloGlobal />
-      <Container>
-        <Sidebar trocatema={trocatema} />
-        <main>
-          <Sobre />
-          <Projetos />
-        </main>
-      </Container>
-    </ThemeProvider>
+    <>
+      <Header />
+      <Hero />
+      <div className="container">
+        <ListaVagas />
+      </div>
+    </>
   )
 }
 
