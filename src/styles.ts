@@ -16,6 +16,8 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: ${(props) => (props.theme as Theme).cordefundo};
+  transition: background-color 0.3s ease, color 0.3s ease;
+
 
   @media (max-width: 768px ) {
     padding-top: 16px;

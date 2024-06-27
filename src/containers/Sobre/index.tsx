@@ -1,6 +1,7 @@
 import Titulo from '../../components/Titulo'
 import Paragrafo from '../../components/Paragrafo'
 import { GithubSecao } from './styles'
+import React from 'react'
 
 const Sobre = () => (
   <section>
@@ -12,7 +13,7 @@ const Sobre = () => (
       voluptatem accusantium aperiam!
     </Paragrafo>
     <GithubSecao>
-      <img src="https://github-readme-stats.vercel.app/api?username=BaiacuPlays&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
+      <img src="https://github-readme-stats.vercel.app/api?username=BaiacuPlays&show_icons=true&theme=dracula&include_all_commits=true&count_private=false" />
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BaiacuPlays&layout=compact&langs_count=7&theme=dracula" />
     </GithubSecao>
   </section>

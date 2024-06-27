@@ -1,7 +1,6 @@
 import Avatar from '../../components/Avatar'
 import Paragrafo from '../../components/Paragrafo'
-import Titulo from '../../components/Titulo'
-
+import React from 'react'
 import { Descrição, BotaoTema, SidebarContainer } from './styles'
 
 type Props = {
@@ -12,7 +11,7 @@ const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
-      <Titulo fontsize={20}> Andrei Bonatto </Titulo>
+
       <Paragrafo tipo="secundario" fontSize={16}>
         Andrei Bonatto
       </Paragrafo>

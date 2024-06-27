@@ -1,9 +1,9 @@
 const temaLight = {
-  corpricipal: '#282a35',
-  corsecundaria: '#949494',
-  cordefundo: '#fff',
-  corfundobotao: '#4476bf',
-  corborda: '#c1c1c1'
+  corpricipal: '#153448',
+  corsecundaria: '#222831',
+  cordefundo: '#DFD0B9',
+  corfundobotao: '#3C5B6F',
+  corborda: '#31304D'
 }
 
 export default temaLight

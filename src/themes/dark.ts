@@ -1,9 +1,9 @@
 const temaDark = {
-  corpricipal: '#fff',
-  corsecundaria: '#eee',
-  cordefundo: '#282a35',
-  corfundobotao: '#fff',
-  corborda: '#c1c1c1'
+  corpricipal: '#EEEEEE',
+  corsecundaria: '#948979',
+  cordefundo: '#31363F',
+  corfundobotao: '#948979',
+  corborda: '#DFD0B8'
 }
 
 export default temaDark
